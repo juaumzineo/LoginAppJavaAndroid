@@ -19,9 +19,9 @@ public class MainActivity extends AppCompatActivity {
     Button btnOk;
 
     {
-        usuariosMap.put("huguinho", "123");
-        usuariosMap.put("zezinho", "123");
-        usuariosMap.put("luizinho", "123");
+        usuariosMap.put("jojo", "123");
+        usuariosMap.put("corninho", "123");
+        usuariosMap.put("mansinho", "123");
     }
 
     @Override

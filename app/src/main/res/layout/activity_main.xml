@@ -15,7 +15,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        android:backgroundTint="@color/colorPrimaryDark"
+        android:background="@color/colorPrimaryDark"
         >
 
         <TextView
@@ -24,14 +24,18 @@
             android:layout_height="wrap_content"
             android:text="Login"
             android:textSize="24dp"
-            android:layout_marginTop="50dp"/>
+            android:layout_marginTop="50dp"
+            android:layout_marginLeft="10dp"
+            android:textColor="@color/branco"/>
 
         <EditText
             android:id="@+id/editTextLogin"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:ems="10"
-            android:inputType="textPersonName" />
+            android:inputType="textPersonName"
+            android:textColor="@color/laranja"
+            android:backgroundTint="@color/colorPrimary"/>
 
         <TextView
             android:id="@+id/lbSenha"
@@ -39,6 +43,8 @@
             android:layout_height="wrap_content"
             android:text="Senha"
             android:textSize="24dp"
+            android:layout_marginLeft="10dp"
+            android:textColor="@color/branco"
             />
 
         <EditText
@@ -46,13 +52,15 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:ems="10"
-            android:inputType="textPassword" />
+            android:inputType="textPassword"
+            android:textColor="@color/laranja"
+            android:backgroundTint="@color/colorPrimary"/>
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:orientation="horizontal"
-            android:backgroundTint="@color/colorPrimaryDark"
+            android:background="@color/colorPrimaryDark"
             >
 
             <Button
@@ -62,7 +70,7 @@
                 android:layout_weight="1"
                 android:layout_marginTop="50dp"
                 android:text="Limpar"
-                android:backgroundTint="@color/colorPrimary"/>
+                android:backgroundTint="@color/colorAccent"/>
 
             <Button
                 android:id="@+id/btnOk"
@@ -71,7 +79,7 @@
                 android:layout_weight="1"
                 android:layout_marginTop="50dp"
                 android:text="OK"
-                android:backgroundTint="@color/colorPrimary"/>
+                android:backgroundTint="@color/azul"/>
         </LinearLayout>
 
     </LinearLayout>
