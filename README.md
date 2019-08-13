@@ -4,9 +4,9 @@
 
 - A simple Java Android project for login, without database.
 
-# Changelog 1.0
+# Changelog 1.5
 
-- Initial build.
+- Design Updates.
 
 # Getting Started
 
